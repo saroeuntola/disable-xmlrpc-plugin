@@ -16,48 +16,7 @@ PHP 7.4 or higher
 Write permissions for the .htaccess file (if enabling .htaccess blocking)
 Apache server for .htaccess blocking (for non-Apache servers like Nginx, manual configuration is required)
 
-Installation
-Option 1: Install from GitHub
-
-Download the Plugin:
-
-Clone the repository or download the ZIP file from GitHub:git clone https://github.com/your-username/disable-xmlrpc.git
-
-Replace your-username with your GitHub username and disable-xmlrpc with your repository name.
-If downloading the ZIP, unzip it to get the disable-xmlrpc folder.
-
-
-Upload to WordPress:
-
-Copy the disable-xmlrpc folder to the wp-content/plugins/ directory of your WordPress installation.
-Alternatively, upload the ZIP file via the WordPress admin dashboard:
-Go to Plugins > Add New > Upload Plugin.
-Select the ZIP file and click Install Now.
-
-
-
-
-Activate the Plugin:
-
-In the WordPress admin dashboard, navigate to Plugins.
-Find Disable XML-RPC and click Activate.
-
-
-
-Option 2: Manual Installation
-
-Download the Plugin:
-Download the disable-xmlrpc.php file from the GitHub repository.
-
-
-Create Plugin Folder:
-Create a folder named disable-xmlrpc in wp-content/plugins/.
-Place the disable-xmlrpc.php file in this folder.
-
-
-Activate the Plugin:
-In the WordPress admin dashboard, go to Plugins.
-Locate Disable XML-RPC and click Activate.
+Downloads Disable XML-RPC Plugin : https://github.com/saroeuntola/disable-xmlrpc-plugin/raw/refs/heads/main/disable-xmlrpc.zip
 
 
 
