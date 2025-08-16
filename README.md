@@ -47,18 +47,6 @@ To deactivate, go to Plugins and click Deactivate for Disable XML-RPC.
 The plugin will automatically remove any .htaccess rules it added to avoid leaving orphaned configurations.
 
 
-
-Notes
-
-Compatibility: This plugin is compatible with other WordPress plugins, including content import plugins like "Football News Feeds," as it does not interfere with core WordPress functions or external API calls.
-Non-Apache Servers: If your site uses Nginx or another non-Apache server, the .htaccess blocking option will not work. Instead, configure your server to block access to xmlrpc.php. For example, in Nginx:location = /xmlrpc.php {
-    deny all;
-}
-
-
-Security Plugins: If you use security plugins like iThemes Security or Wordfence, ensure their XML-RPC settings do not conflict with this plugin.
-Testing: After installation, test your site’s core functionality (e.g., post creation, media uploads, cron jobs) to ensure no conflicts with other plugins.
-
 Troubleshooting
 
 .htaccess Not Writable: If you see a warning that the .htaccess file is not writable, check file permissions or contact your hosting provider to make it writable.
